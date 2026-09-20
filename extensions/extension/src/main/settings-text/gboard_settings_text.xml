@@ -3126,4 +3126,16 @@
         <translation locale="en">Theme import failed</translation>
         <translation locale="zh-Hant">主題匯入失敗</translation>
     </string>
+    <string name="gboard_patches_swipe_down_dismiss_title">
+        <translation locale="en">Swipe Down to Dismiss Keyboard</translation>
+        <translation locale="zh-Hant">下滑關閉鍵盤</translation>
+    </string>
+    <string name="gboard_patches_swipe_down_dismiss_summary">
+        <translation locale="en">Swipe down from the suggestions or toolbar area to dismiss the keyboard.</translation>
+        <translation locale="zh-Hant">從建議列或工具列區域向下滑動以關閉鍵盤。</translation>
+    </string>
+    <string name="gboard_patches_swipe_down_dismiss_enabled_title">
+        <translation locale="en">Enable swipe down to dismiss</translation>
+        <translation locale="zh-Hant">啟用下滑關閉</translation>
+    </string>
 </settings-text>
