@@ -366,13 +366,13 @@
           "description": "",
           "required": true,
           "type": "kotlin.String",
-          "default": "GboardWu",
+          "default": "Gboard ☄",
           "values": {
             "Gboard": "Gboard",
             "Gboard Dev": "Gboard Dev",
             "Gboard Patches": "Gboard Patches",
             "Gboard Mod": "Gboard Mod",
-            "GboardWu": "GboardWu"
+            "Gboard ☄": "Gboard ☄"
           }
         }
       ]
