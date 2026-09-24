@@ -2,8 +2,8 @@
   "version": "3.11.0",
   "patches": [
     {
-      "name": "AI Writing Tools",
-      "description": "啟用 AI 撰寫工具，支援所有語言\nEnable AI writing tools with support for all languages.",
+      "name": "เครื่องมือเขียนด้วย AI",
+      "description": "เปิดใช้งานเครื่องมือเขียนด้วย AI รองรับทุกภาษา\nเปิดใช้งานเครื่องมือเขียนด้วย AI พร้อมรองรับทุกภาษา",
       "use": true,
       "dependencies": [],
       "compatiblePackages": {
@@ -14,8 +14,8 @@
       "options": []
     },
     {
-      "name": "Access Points menu style",
-      "description": "切換新版或舊版 Access Points 選單樣式\nSwitch between the new and legacy Access Points menu styles.",
+      "name": "รูปแบบเมนู Access Points",
+      "description": "สลับระหว่างรูปแบบเมนู Access Points แบบใหม่และแบบเดิม\nสลับระหว่างรูปแบบเมนู Access Points แบบใหม่และแบบเดิม",
       "use": true,
       "dependencies": [],
       "compatiblePackages": {
@@ -26,8 +26,8 @@
       "options": []
     },
     {
-      "name": "Add Gboard Signature Bypass",
-      "description": "攔截 Gboard 的簽章白名單檢查並強制通過\nBypass Gboard signature whitelist checks and force them to pass.",
+      "name": "เพิ่มการข้ามลายเซ็น Gboard",
+      "description": "ดักจับการตรวจสอบรายการอนุญาตลายเซ็นของ Gboard และบังคับให้ผ่าน\nข้ามการตรวจสอบรายการอนุญาตลายเซ็นของ Gboard และบังคับให้ผ่าน",
       "use": true,
       "dependencies": [],
       "compatiblePackages": {
@@ -38,8 +38,8 @@
       "options": []
     },
     {
-      "name": "Advanced Voice Typing",
-      "description": "啟用進階語音輸入（包含自動標點功能），並另外為不支援進階語音輸入的繁體中文語音啟用自動標點\nEnable Advanced Voice Typing with automatic punctuation, and separately enable automatic punctuation for Traditional Chinese voice typing, which does not support Advanced Voice Typing.",
+      "name": "การพิมพ์ด้วยเสียงขั้นสูง",
+      "description": "เปิดใช้งานการพิมพ์ด้วยเสียงขั้นสูง (รวมถึงการเติมเครื่องหมายวรรคตอนอัตโนมัติ) และเปิดใช้งานการเติมเครื่องหมายวรรคตอนอัตโนมัติแยกต่างหากสำหรับการพิมพ์ด้วยเสียงภาษาจีนตัวเต็ม ซึ่งไม่รองรับการพิมพ์ด้วยเสียงขั้นสูง\nเปิดใช้งานการพิมพ์ด้วยเสียงขั้นสูงพร้อมการเติมเครื่องหมายวรรคตอนอัตโนมัติ และเปิดใช้งานการเติมเครื่องหมายวรรคตอนอัตโนมัติแยกต่างหากสำหรับการพิมพ์ด้วยเสียงภาษาจีนตัวเต็ม ซึ่งไม่รองรับการพิมพ์ด้วยเสียงขั้นสูง",
       "use": true,
       "dependencies": [],
       "compatiblePackages": {
@@ -50,8 +50,8 @@
       "options": []
     },
     {
-      "name": "Backup & Restore",
-      "description": "匯出或還原全部 Patches 設定，並備份、比較及還原 Gboard PB/XML flag store\nExport or restore all Patches settings, and back up, compare, or restore the Gboard PB/XML flag store.",
+      "name": "สำรองและกู้คืน",
+      "description": "ส่งออกหรือกู้คืนการตั้งค่า Patches ทั้งหมด และสำรอง เปรียบเทียบ และกู้คืน Gboard PB/XML flag store\nส่งออกหรือกู้คืนการตั้งค่า Patches ทั้งหมด และสำรอง เปรียบเทียบ หรือกู้คืน Gboard PB/XML flag store",
       "use": true,
       "dependencies": [],
       "compatiblePackages": {
@@ -62,8 +62,8 @@
       "options": []
     },
     {
-      "name": "Change emoji size",
-      "description": "變更表情符號大小\nChange emoji size.",
+      "name": "เปลี่ยนขนาดอีโมจิ",
+      "description": "เปลี่ยนขนาดอีโมจิ\nเปลี่ยนขนาดอีโมจิ",
       "use": true,
       "dependencies": [],
       "compatiblePackages": {
@@ -74,8 +74,8 @@
       "options": []
     },
     {
-      "name": "Clipboard Custom Character Limit",
-      "description": "自訂每個文字剪貼簿項目的最大字元數\nCustomize the maximum character count for each text clipboard item.",
+      "name": "กำหนดจำนวนตัวอักษรสูงสุดของคลิปบอร์ด",
+      "description": "กำหนดจำนวนตัวอักษรสูงสุดแบบกำหนดเองสำหรับแต่ละรายการคลิปบอร์ดข้อความ\nกำหนดจำนวนตัวอักษรสูงสุดแบบกำหนดเองสำหรับแต่ละรายการคลิปบอร์ดข้อความ",
       "use": true,
       "dependencies": [],
       "compatiblePackages": {
@@ -86,8 +86,8 @@
       "options": []
     },
     {
-      "name": "Clipboard Enhancements",
-      "description": "增強剪貼簿的保留時間、數量上限、預覽行數、倒數/建立時間、順序編號與欄數\nEnhance clipboard retention time, item count limit, preview lines, countdown/creation time labels, order index, and column count.",
+      "name": "การปรับปรุงคลิปบอร์ด",
+      "description": "ปรับปรุงระยะเวลาเก็บรักษาคลิปบอร์ด จำนวนรายการสูงสุด จำนวนบรรทัดตัวอย่าง ป้ายนับถอยหลัง/เวลาที่สร้าง ลำดับหมายเลข และจำนวนคอลัมน์\nปรับปรุงระยะเวลาเก็บรักษาคลิปบอร์ด จำนวนรายการสูงสุด จำนวนบรรทัดตัวอย่าง ป้ายนับถอยหลัง/เวลาที่สร้าง ลำดับหมายเลข และจำนวนคอลัมน์",
       "use": true,
       "dependencies": [],
       "compatiblePackages": {
@@ -98,8 +98,8 @@
       "options": []
     },
     {
-      "name": "Close Proactive Suggestions",
-      "description": "在主動建議列顯示關閉按鈕\nShow a dismiss button in the proactive suggestions bar.",
+      "name": "ปิดคำแนะนำเชิงรุก",
+      "description": "แสดงปุ่มปิดในแถบคำแนะนำเชิงรุก\nแสดงปุ่มปิดในแถบคำแนะนำเชิงรุก",
       "use": true,
       "dependencies": [],
       "compatiblePackages": {
@@ -110,8 +110,8 @@
       "options": []
     },
     {
-      "name": "Custom Symbols",
-      "description": "新增獨立的特殊符號分頁，長按逗號->愛心\nAdd a dedicated custom symbols tab and replace the long-press comma entry with a heart shortcut.",
+      "name": "สัญลักษณ์กำหนดเอง",
+      "description": "เพิ่มแท็บสัญลักษณ์พิเศษแยกต่างหาก และแทนที่รายการจุลภาคเมื่อกดค้างด้วยทางลัดรูปหัวใจ\nเพิ่มแท็บสัญลักษณ์กำหนดเองโดยเฉพาะ และแทนที่รายการจุลภาคเมื่อกดค้างด้วยทางลัดรูปหัวใจ",
       "use": true,
       "dependencies": [],
       "compatiblePackages": {
@@ -122,8 +122,8 @@
       "options": []
     },
     {
-      "name": "Custom Theme",
-      "description": "支援匯入自訂 ZIP 主題，並支援從 Rboard 官方儲存庫匯入精美主題。\nImport custom ZIP themes and beautiful themes from the official Rboard repository.",
+      "name": "ธีมกำหนดเอง",
+      "description": "รองรับการนำเข้าธีม ZIP แบบกำหนดเอง และรองรับการนำเข้าธีมสวยงามจากที่เก็บอย่างเป็นทางการของ Rboard\nนำเข้าธีม ZIP แบบกำหนดเอง และธีมสวยงามจากที่เก็บอย่างเป็นทางการของ Rboard",
       "use": true,
       "dependencies": [],
       "compatiblePackages": {
@@ -134,8 +134,8 @@
       "options": []
     },
     {
-      "name": "Developer options",
-      "description": "啟用 開發人員選項 與 Flag 編輯器，你可以自己修改Flag的值\nEnable Developer options and the Flag Editor, allowing you to modify flag values.",
+      "name": "ตัวเลือกนักพัฒนา",
+      "description": "เปิดใช้งานตัวเลือกนักพัฒนาและ Flag Editor ทำให้คุณสามารถแก้ไขค่า Flag ได้ด้วยตนเอง\nเปิดใช้งานตัวเลือกนักพัฒนาและ Flag Editor ทำให้คุณสามารถแก้ไขค่า Flag ได้",
       "use": true,
       "dependencies": [],
       "compatiblePackages": {
@@ -146,8 +146,8 @@
       "options": []
     },
     {
-      "name": "Emojis, stickers & GIFs Tab Order",
-      "description": "自訂 Gboard「Emojis, stickers & GIFs」底部 tabs 的排序，支援拖曳調整\nCustomize the bottom tab order in Gboard's Emojis, stickers & GIFs panel with drag-and-drop reordering.",
+      "name": "ลำดับแท็บ Emojis, stickers & GIFs",
+      "description": "กำหนดลำดับแท็บด้านล่างในแผง Emojis, stickers & GIFs ของ Gboard รองรับการลากเพื่อจัดเรียง\nกำหนดลำดับแท็บด้านล่างในแผง Emojis, stickers & GIFs ของ Gboard พร้อมการลากวางเพื่อจัดเรียง",
       "use": true,
       "dependencies": [],
       "compatiblePackages": {
@@ -158,8 +158,8 @@
       "options": []
     },
     {
-      "name": "Enable Inline Autofill Suggestions",
-      "description": "啟用內嵌自動填入建議\nEnable Inline Autofill Suggestions",
+      "name": "เปิดใช้งานคำแนะนำการเติมข้อมูลอัตโนมัติแบบอินไลน์",
+      "description": "เปิดใช้งานคำแนะนำการเติมข้อมูลอัตโนมัติแบบอินไลน์\nเปิดใช้งานคำแนะนำการเติมข้อมูลอัตโนมัติแบบอินไลน์",
       "use": true,
       "dependencies": [],
       "compatiblePackages": {
@@ -170,8 +170,8 @@
       "options": []
     },
     {
-      "name": "Enable OCR / Scan Text",
-      "description": "啟用 OCR / 掃描文字功能，支援 拉丁、中文、日文、韓文 與 天城文 辨識後端\nEnable the OCR / Scan Text feature with Latin, Chinese, Japanese, Korean, and Devanagari recognition backends.",
+      "name": "เปิดใช้งาน OCR / สแกนข้อความ",
+      "description": "เปิดใช้งานคุณสมบัติ OCR / สแกนข้อความ รองรับแบ็กเอนด์การจดจำภาษาละติน จีน ญี่ปุ่น เกาหลี และเทวนาครี\nเปิดใช้งานคุณสมบัติ OCR / สแกนข้อความ พร้อมแบ็กเอนด์การจดจำภาษาละติน จีน ญี่ปุ่น เกาหลี และเทวนาครี",
       "use": true,
       "dependencies": [],
       "compatiblePackages": {
@@ -182,8 +182,8 @@
       "options": []
     },
     {
-      "name": "Enable accessibility layout",
-      "description": "啟用無障礙鍵盤配置\nEnable accessibility layout.",
+      "name": "เปิดใช้งานเลย์เอาต์เพื่อการเข้าถึง",
+      "description": "เปิดใช้งานเลย์เอาต์แป้นพิมพ์เพื่อการเข้าถึง\nเปิดใช้งานเลย์เอาต์เพื่อการเข้าถึง",
       "use": true,
       "dependencies": [],
       "compatiblePackages": {
@@ -194,8 +194,8 @@
       "options": []
     },
     {
-      "name": "Enable cursor trackpad mode",
-      "description": "長按空白鍵開啟游標觸控板與鎖定模式\nLong-press the space bar to use cursor trackpad and lock modes.",
+      "name": "เปิดใช้งานโหมดแทร็กแพดเคอร์เซอร์",
+      "description": "กดแป้นเว้นวรรคค้างเพื่อใช้โหมดแทร็กแพดเคอร์เซอร์และโหมดล็อก\nกดแป้นเว้นวรรคค้างเพื่อใช้โหมดแทร็กแพดเคอร์เซอร์และโหมดล็อก",
       "use": true,
       "dependencies": [],
       "compatiblePackages": {
@@ -206,8 +206,8 @@
       "options": []
     },
     {
-      "name": "Enable split keyboard",
-      "description": "啟用分離式鍵盤\nEnable the split keyboard layout.",
+      "name": "เปิดใช้งานแป้นพิมพ์แยก",
+      "description": "เปิดใช้งานเลย์เอาต์แป้นพิมพ์แยก\nเปิดใช้งานเลย์เอาต์แป้นพิมพ์แยก",
       "use": true,
       "dependencies": [],
       "compatiblePackages": {
@@ -218,8 +218,8 @@
       "options": []
     },
     {
-      "name": "English QWERTY Up-Flick Uppercase",
-      "description": "英文 QWERTY 鍵盤上滑大小寫\nFlick up on the English QWERTY keyboard to toggle uppercase and lowercase.",
+      "name": "ปัดขึ้นบน QWERTY อังกฤษเป็นตัวพิมพ์ใหญ่",
+      "description": "ปัดขึ้นบนแป้นพิมพ์ QWERTY ภาษาอังกฤษเพื่อสลับตัวพิมพ์ใหญ่และตัวพิมพ์เล็ก\nปัดขึ้นบนแป้นพิมพ์ QWERTY ภาษาอังกฤษเพื่อสลับตัวพิมพ์ใหญ่และตัวพิมพ์เล็ก",
       "use": true,
       "dependencies": [],
       "compatiblePackages": {
@@ -230,8 +230,8 @@
       "options": []
     },
     {
-      "name": "FTP Server",
-      "description": "新增區域網路 FTP 伺服器，支援檔案瀏覽、傳輸與下載續傳\nAdd a LAN FTP server with file browsing, transfers, and download resume.",
+      "name": "เซิร์ฟเวอร์ FTP",
+      "description": "เพิ่มเซิร์ฟเวอร์ FTP ในเครือข่ายท้องถิ่น รองรับการเรียกดูไฟล์ การถ่ายโอน และการดาวน์โหลดต่อเนื่อง\nเพิ่มเซิร์ฟเวอร์ FTP ใน LAN พร้อมการเรียกดูไฟล์ การถ่ายโอน และการดาวน์โหลดต่อเนื่อง",
       "use": true,
       "dependencies": [],
       "compatiblePackages": {
@@ -242,8 +242,8 @@
       "options": []
     },
     {
-      "name": "Floating Web Search",
-      "description": "直接從 Gboard 開啟懸浮網頁，快速搜尋需要的資訊。\nOpen a floating web page directly from Gboard to quickly search for the information you need.",
+      "name": "ค้นหาเว็บแบบลอย",
+      "description": "เปิดหน้าเว็บแบบลอยจาก Gboard โดยตรง เพื่อค้นหาข้อมูลที่ต้องการได้อย่างรวดเร็ว\nเปิดหน้าเว็บแบบลอยจาก Gboard โดยตรง เพื่อค้นหาข้อมูลที่ต้องการได้อย่างรวดเร็ว",
       "use": true,
       "dependencies": [],
       "compatiblePackages": {
@@ -254,8 +254,8 @@
       "options": []
     },
     {
-      "name": "G Logo on Spacebar",
-      "description": "在空白鍵顯示 G Logo，並隱藏語言名稱\nShow the G Logo on the spacebar and hide the language label.",
+      "name": "โลโก้ G บนแป้นเว้นวรรค",
+      "description": "แสดงโลโก้ G บนแป้นเว้นวรรค และซ่อนชื่อภาษา\nแสดงโลโก้ G บนแป้นเว้นวรรค และซ่อนป้ายชื่อภาษา",
       "use": true,
       "dependencies": [],
       "compatiblePackages": {
@@ -266,8 +266,8 @@
       "options": []
     },
     {
-      "name": "Grammar Checker",
-      "description": "啟用 修正和建議 > 文法檢查\nEnable Text correction > Grammar check.",
+      "name": "ตรวจสอบไวยากรณ์",
+      "description": "เปิดใช้งาน การแก้ไขและแนะนำ > ตรวจสอบไวยากรณ์\nเปิดใช้งาน การแก้ไขข้อความ > ตรวจสอบไวยากรณ์",
       "use": true,
       "dependencies": [],
       "compatiblePackages": {
@@ -278,8 +278,8 @@
       "options": []
     },
     {
-      "name": "Hyperspeed Typing Animation",
-      "description": "持續快速輸入時顯示動畫，並支援所有鍵盤\nShow the animation during sustained fast typing with support for all keyboards.",
+      "name": "แอนิเมชันการพิมพ์ความเร็วสูง",
+      "description": "แสดงแอนิเมชันระหว่างการพิมพ์เร็วอย่างต่อเนื่อง และรองรับทุกแป้นพิมพ์\nแสดงแอนิเมชันระหว่างการพิมพ์เร็วอย่างต่อเนื่อง พร้อมรองรับทุกแป้นพิมพ์",
       "use": true,
       "dependencies": [],
       "compatiblePackages": {
@@ -290,8 +290,8 @@
       "options": []
     },
     {
-      "name": "Incognito Mode Toggle",
-      "description": "在 Access Point 工具列新增無痕模式切換按鈕，並可設定無痕模式下是否啟用剪貼簿與語音輸入\nAdd an Incognito toggle to the Access Point toolbar and configure clipboard and voice typing availability while Incognito mode is active.",
+      "name": "สลับโหมดไม่ระบุตัวตน",
+      "description": "เพิ่มปุ่มสลับโหมดไม่ระบุตัวตนในแถบเครื่องมือ Access Point และสามารถตั้งค่าว่าจะเปิดใช้งานคลิปบอร์ดและการพิมพ์ด้วยเสียงขณะอยู่ในโหมดไม่ระบุตัวตนหรือไม่\nเพิ่มปุ่มสลับโหมดไม่ระบุตัวตนในแถบเครื่องมือ Access Point และตั้งค่าความพร้อมใช้งานของคลิปบอร์ดและการพิมพ์ด้วยเสียงขณะเปิดใช้งานโหมดไม่ระบุตัวตน",
       "use": true,
       "dependencies": [],
       "compatiblePackages": {
@@ -302,8 +302,8 @@
       "options": []
     },
     {
-      "name": "Inline Suggestions",
-      "description": "啟用 修正和建議 > 智慧撰寫\nEnable Text correction > Smart Compose.",
+      "name": "คำแนะนำแบบอินไลน์",
+      "description": "เปิดใช้งาน การแก้ไขและแนะนำ > Smart Compose\nเปิดใช้งาน การแก้ไขข้อความ > Smart Compose",
       "use": true,
       "dependencies": [],
       "compatiblePackages": {
@@ -314,8 +314,8 @@
       "options": []
     },
     {
-      "name": "Key Shape Selection",
-      "description": "啟用圓角按鍵，主題詳情 > 按鍵形狀\nEnable Key shape in Theme details.",
+      "name": "เลือกทรงปุ่ม",
+      "description": "เปิดใช้งานปุ่มมุมโค้ง ในรายละเอียดธีม > รูปร่างปุ่ม\nเปิดใช้งานรูปร่างปุ่มในรายละเอียดธีม",
       "use": true,
       "dependencies": [],
       "compatiblePackages": {
@@ -326,8 +326,8 @@
       "options": []
     },
     {
-      "name": "Latin Globe Key Ignore Interval",
-      "description": "新增英文鍵盤地球鍵忽略時間覆寫，可獨立控制輸入後切語言延遲\nAdd an independent English globe key ignore interval override for post-typing language-switch delay.",
+      "name": "ช่วงเวลาเพิกเฉยปุ่มลูกโลกภาษาละติน",
+      "description": "เพิ่มการแทนที่ช่วงเวลาการเพิกเฉยของปุ่มลูกโลกบนแป้นพิมพ์ภาษาอังกฤษ เพื่อควบคุมความหน่วงในการสลับภาษาหลังการพิมพ์ได้อย่างอิสระ\nเพิ่มการแทนที่ช่วงเวลาการเพิกเฉยของปุ่มลูกโลกภาษาอังกฤษแบบอิสระ สำหรับความหน่วงในการสลับภาษาหลังการพิมพ์",
       "use": true,
       "dependencies": [],
       "compatiblePackages": {
@@ -338,8 +338,8 @@
       "options": []
     },
     {
-      "name": "Long-Press Editing Shortcuts",
-      "description": "在英文 QWERTY 與注音鍵盤加入全選、復原、複製、剪下、貼上與重做長按快捷鍵\nAdd Select all, Undo, Copy, Cut, Paste, and Redo long-press shortcuts to English QWERTY and Zhuyin.",
+      "name": "ทางลัดแก้ไขเมื่อกดค้าง",
+      "description": "เพิ่มทางลัดการกดค้างสำหรับ เลือกทั้งหมด เลิกทำ คัดลอก ตัด วาง และทำซ้ำ บนแป้นพิมพ์ QWERTY ภาษาอังกฤษและจู้อิน\nเพิ่มทางลัดการกดค้างสำหรับ เลือกทั้งหมด เลิกทำ คัดลอก ตัด วาง และทำซ้ำ บนแป้นพิมพ์ QWERTY ภาษาอังกฤษและจู้อิน",
       "use": true,
       "dependencies": [],
       "compatiblePackages": {
@@ -350,8 +350,8 @@
       "options": []
     },
     {
-      "name": "Package Rename",
-      "description": "將套件名稱改成 dev.jason.com.google.android.inputmethod.latin，並可自訂 App 名稱，以便共存安裝\nRename the package to dev.jason.com.google.android.inputmethod.latin and allow a custom app name so it can be installed alongside the official Gboard.",
+      "name": "เปลี่ยนชื่อแพ็กเกจ",
+      "description": "เปลี่ยนชื่อแพ็กเกจเป็น com.miu.google.android.inputmethod.latin และสามารถกำหนดชื่อแอปได้เอง เพื่อให้ติดตั้งควบคู่กับ Gboard อย่างเป็นทางการได้\nเปลี่ยนชื่อแพ็กเกจเป็น com.miu.google.android.inputmethod.latin และอนุญาตให้กำหนดชื่อแอปเองได้ เพื่อให้ติดตั้งควบคู่กับ Gboard อย่างเป็นทางการได้",
       "use": true,
       "dependencies": [],
       "compatiblePackages": {
@@ -362,7 +362,7 @@
       "options": [
         {
           "key": "app_display_name",
-          "title": "App 名稱 / App name",
+          "title": "ชื่อแอป / App name",
           "description": "",
           "required": true,
           "type": "kotlin.String",
@@ -378,8 +378,8 @@
       ]
     },
     {
-      "name": "Quick Insert",
-      "description": "啟用快速插入面板與工具列入口\nEnable the Quick Insert panel and toolbar access point.",
+      "name": "แทรกด่วน",
+      "description": "เปิดใช้งานแผงแทรกด่วนและจุดเข้าใช้งานแถบเครื่องมือ\nเปิดใช้งานแผงแทรกด่วนและจุดเข้าใช้งานแถบเครื่องมือ",
       "use": true,
       "dependencies": [],
       "compatiblePackages": {
@@ -390,8 +390,8 @@
       "options": []
     },
     {
-      "name": "Rounded Keyboard Panel",
-      "description": "自訂鍵盤面板哪些角落呈現圓角，並分別設定上方與下方半徑。\nCustomize which corners of the keyboard panel are rounded, and set the top and bottom radii separately.",
+      "name": "แผงแป้นพิมพ์มุมโค้ง",
+      "description": "กำหนดมุมของแผงแป้นพิมพ์ที่จะแสดงเป็นมุมโค้ง และตั้งรัศมีด้านบนและด้านล่างแยกกัน\nกำหนดมุมของแผงแป้นพิมพ์ที่จะแสดงเป็นมุมโค้ง และตั้งรัศมีด้านบนและด้านล่างแยกกัน",
       "use": true,
       "dependencies": [],
       "compatiblePackages": {
@@ -402,8 +402,8 @@
       "options": []
     },
     {
-      "name": "Settings Homepage Override",
-      "description": "允許切換新版或舊版 Gboard 設定頁面\nAllow switching between the new and legacy Gboard settings pages.",
+      "name": "แทนที่หน้าหลักการตั้งค่า",
+      "description": "อนุญาตให้สลับระหว่างหน้าตั้งค่า Gboard แบบใหม่และแบบเดิม\nอนุญาตให้สลับระหว่างหน้าตั้งค่า Gboard แบบใหม่และแบบเดิม",
       "use": true,
       "dependencies": [],
       "compatiblePackages": {
@@ -414,8 +414,8 @@
       "options": []
     },
     {
-      "name": "Simple Calculator",
-      "description": "直接輸入算式，在 Gboard 推薦列顯示可捲動算式與答案。\nType an expression and show a scrollable equation plus its answer in Gboard's suggestion row.",
+      "name": "เครื่องคิดเลขอย่างง่าย",
+      "description": "พิมพ์นิพจน์โดยตรง แล้วแสดงสมการแบบเลื่อนได้และคำตอบในแถวคำแนะนำของ Gboard\nพิมพ์นิพจน์ แล้วแสดงสมการแบบเลื่อนได้พร้อมคำตอบในแถวคำแนะนำของ Gboard",
       "use": true,
       "dependencies": [],
       "compatiblePackages": {
@@ -426,8 +426,8 @@
       "options": []
     },
     {
-      "name": "Swipeable Custom Top Row",
-      "description": "滑動鍵盤第一排，在原生列與可自訂文字/JavaScript 列之間切換\nSwipe the keyboard top row to switch between the stock row and a customizable text/JavaScript row.",
+      "name": "แถวบนกำหนดเองแบบปัดได้",
+      "description": "ปัดแถวบนสุดของแป้นพิมพ์เพื่อสลับระหว่างแถวมาตรฐานกับแถวข้อความ/JavaScript ที่กำหนดเองได้\nปัดแถวบนสุดของแป้นพิมพ์เพื่อสลับระหว่างแถวมาตรฐานกับแถวข้อความ/JavaScript ที่กำหนดเองได้",
       "use": true,
       "dependencies": [],
       "compatiblePackages": {
@@ -438,8 +438,8 @@
       "options": []
     },
     {
-      "name": "Toolbar Editing Buttons",
-      "description": "將全選、複製、剪下與貼上加入選單。\nAdd Select All, Copy, Cut and Paste to the menu.",
+      "name": "ปุ่มแก้ไขบนแถบเครื่องมือ",
+      "description": "เพิ่ม เลือกทั้งหมด คัดลอก ตัด และวาง ลงในเมนู\nเพิ่ม เลือกทั้งหมด คัดลอก ตัด และวาง ลงในเมนู",
       "use": true,
       "dependencies": [],
       "compatiblePackages": {
@@ -450,8 +450,8 @@
       "options": []
     },
     {
-      "name": "Top Toolbar Item Count",
-      "description": "自訂 Gboard 頂端工具列項目數量\nCustomize the Gboard top toolbar item count.",
+      "name": "จำนวนรายการแถบเครื่องมือด้านบน",
+      "description": "กำหนดจำนวนรายการในแถบเครื่องมือด้านบนของ Gboard\nกำหนดจำนวนรายการในแถบเครื่องมือด้านบนของ Gboard",
       "use": true,
       "dependencies": [],
       "compatiblePackages": {
@@ -462,8 +462,8 @@
       "options": []
     },
     {
-      "name": "Use Bluetooth Microphone",
-      "description": "啟用 語音輸入 -> 使用藍芽麥克風\nEnable Voice typing -> Use Bluetooth microphone.",
+      "name": "ใช้ไมโครโฟนบลูทูธ",
+      "description": "เปิดใช้งาน การพิมพ์ด้วยเสียง > ใช้ไมโครโฟนบลูทูธ\nเปิดใช้งาน การพิมพ์ด้วยเสียง > ใช้ไมโครโฟนบลูทูธ",
       "use": true,
       "dependencies": [],
       "compatiblePackages": {
@@ -474,8 +474,8 @@
       "options": []
     },
     {
-      "name": "Web Clipboard",
-      "description": "新增手機自架的 Web Clipboard，支援瀏覽器同步、配對碼與快速設定開關\nAdd the phone-hosted Web Clipboard with browser sync, pairing, and a Quick Settings Tile.",
+      "name": "คลิปบอร์ดบนเว็บ",
+      "description": "เพิ่ม Web Clipboard ที่โฮสต์บนโทรศัพท์ รองรับการซิงค์ผ่านเบราว์เซอร์ การจับคู่โค้ด และ Quick Settings Tile\nเพิ่ม Web Clipboard ที่โฮสต์บนโทรศัพท์ พร้อมการซิงค์ผ่านเบราว์เซอร์ การจับคู่ และ Quick Settings Tile",
       "use": true,
       "dependencies": [],
       "compatiblePackages": {
@@ -486,8 +486,8 @@
       "options": []
     },
     {
-      "name": "Zhuyin Bottom Row Key Sizes",
-      "description": "調整注音鍵盤底排按鍵大小\nAdjust Zhuyin keyboard bottom-row key sizes.",
+      "name": "ขนาดปุ่มแถวล่างของจู้อิน",
+      "description": "ปรับขนาดปุ่มแถวล่างของแป้นพิมพ์จู้อิน\nปรับขนาดปุ่มแถวล่างของแป้นพิมพ์จู้อิน",
       "use": true,
       "dependencies": [],
       "compatiblePackages": {
@@ -498,8 +498,8 @@
       "options": []
     },
     {
-      "name": "Zhuyin Quick Traditional/Simplified Toggle",
-      "description": "注音 ㄥ 上滑快速切換繁簡\nSwipe up on Zhuyin ㄥ to quickly toggle Traditional and Simplified Chinese.",
+      "name": "สลับจีนตัวเต็ม/ตัวย่อด่วนบนจู้อิน",
+      "description": "ปัดขึ้นบน ㄥ ของจู้อินเพื่อสลับจีนตัวเต็มและจีนตัวย่ออย่างรวดเร็ว\nปัดขึ้นบน ㄥ ของจู้อินเพื่อสลับจีนตัวเต็มและจีนตัวย่ออย่างรวดเร็ว",
       "use": true,
       "dependencies": [
         "Zhuyin Slide Input"
@@ -512,8 +512,8 @@
       "options": []
     },
     {
-      "name": "Zhuyin Slide Input",
-      "description": "注音鍵盤支持上下滑輸入\nEnable slide-up and slide-down input on the Zhuyin keyboard.",
+      "name": "การป้อนข้อมูลแบบปัดบนจู้อิน",
+      "description": "แป้นพิมพ์จู้อินรองรับการปัดขึ้นและปัดลงเพื่อป้อนข้อมูล\nเปิดใช้งานการป้อนข้อมูลด้วยการปัดขึ้นและปัดลงบนแป้นพิมพ์จู้อิน",
       "use": true,
       "dependencies": [],
       "compatiblePackages": {
